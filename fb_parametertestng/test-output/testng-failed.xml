@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="uid" value="8985743914"/>
+  <parameter name="pswd" value="satish123"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://www.facebook.com/"/>
+  <test name="Test on chrome(failed)">
+    <parameter name="uid" value="8985743914"/>
+    <parameter name="pswd" value="satish123"/>
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="reg"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="fb_parametertestng.NewTest">
+        <methods>
+          <include name="testcase1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- fb_parametertestng.NewTest -->
+    </classes>
+  </test> <!-- Test on chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
