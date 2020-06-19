@@ -12,9 +12,7 @@ import org.testng.annotations.AfterTest;
 
 public class NewTest 
 {
-	/*NOTE:
-	 * Groups does not work when using  "@beforeTest method with parameters"
-	 * so, to make it work ==>Convert @beforeTest method as @Test method  */
+	
 	WebDriver driver;
   
   @Parameters({"uid","pswd"})
